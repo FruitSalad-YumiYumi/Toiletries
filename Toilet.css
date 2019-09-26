@@ -1,0 +1,111 @@
+.topnav{
+	background-color: #2286e3;
+	overflow: hidden;
+	font-family: 'Chilanka', cursive;
+	font-size: 25px;	
+}
+
+.topnav a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: 0.4s;
+}
+
+.topnav a:hover{
+	background-color: #edd487;
+	color: black;
+	transition: 0.4s;
+}
+
+.topnav a.active{
+	background-color: #066fba;
+	color: white;
+}
+
+.topnav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+body{
+	background-color: #9ac5ed;
+	border-top-color: solid;
+	border-top-color: #2286e3;
+	border-top-width: 100px;
+	margin: 0px;
+
+}
+
+.home{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.home{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered {
+	font-size: 90px;
+	font-family: 'Chilanka', cursive;
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+
+}
+.SpringSelection {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 400px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 400px;
+  width: 600px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.SpringSelection:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0.5;
+}
+
+
+
+

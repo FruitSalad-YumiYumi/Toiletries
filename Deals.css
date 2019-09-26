@@ -1,0 +1,39 @@
+.topnav{
+	background-color: #2286e3;
+	overflow: hidden;
+	font-family: 'Chilanka', cursive;
+	font-size: 25px;	
+}
+
+.topnav a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover{
+	background-color: #edd487;
+	color: black;
+}
+
+.topnav a.active{
+	background-color: #066fba;
+	color: white;
+}
+
+body{
+	background-color: #9ac5ed;
+	border-top-color: solid;
+	border-top-color: #2286e3;
+	border-top-width: 100px;
+	margin: 0px;
+}
+
+#deals{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Chilanka', cursive;
+}
